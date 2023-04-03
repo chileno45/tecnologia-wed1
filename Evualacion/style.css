@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    background-color:#030c1b;
+    display: flex;
+    flex-direction: column;
+}
+  
+.container__menu{
+    background-image: url(guitarra.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 33vh;
+}
+
+.container__pricipal{
+    background-color: #171e42;
+    height: 40vh;
+}
+
+.container__footer{
+    background-color: #050718;
+    height: 36vh;
+}
